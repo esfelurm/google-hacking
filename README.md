@@ -9,6 +9,10 @@
 ------------------------------
 - Using privat durks (XSS/RCE/SQLI)
 
+## screen
+
+<img src="scree/Screenshot_20230810-222701_Pydroid 3.jpg">
+
 ## Fast and powerful 
 
 Working with the tool is simple and suitable for people who work in web hacking (beginner-advanced). 
