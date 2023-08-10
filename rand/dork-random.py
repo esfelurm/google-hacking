@@ -49,19 +49,19 @@ ______   _______  |__| ___  __ _____    _/  |_    ____
     	exit(f'{lrd}[{rd}-{lrd}] {rd}Error')    	
 
 if o == '1':
-    with open("/sdcard/sqli.txt",'r') as file:
+    with open("sqli.txt",'r') as file:
         lines = file.readlines()
     random_line = random.choice(lines)
     dork_random(random_line)
     
 elif o == '2':
-    with open("/sdcard/xss.txt",'r') as file:
+    with open("xss.txt",'r') as file:
         lines = file.readlines()
     random_line = random.choice(lines)
     dork_random(random_line)
     
 elif o == '3':
-    with open("/sdcard/lfi.txt",'r') as file:
+    with open("lfi.txt",'r') as file:
         lines = file.readlines()
     random_line = random.choice(lines)
     dork_random(random_line)
