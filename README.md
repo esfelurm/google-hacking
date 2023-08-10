@@ -6,7 +6,8 @@
 - Find directories of a site
 - Find subdomains of the site
 - Find the admin panel of the site
-
+------------------------------
+- Using privat durks (XSS/RCE/SQLI
 
 ## Fast and powerful 
 
