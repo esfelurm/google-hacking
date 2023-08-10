@@ -17,3 +17,13 @@
 
 Working with the tool is simple and suitable for people who work in web hacking (beginner-advanced). 
 
+## install
+```
+git clone https://github.com/esfelurm/google-hacking
+cd google-hacking
+python google-hacking.py
+```
+
+## Channel 
+
+<a href="t.me/Team_exploit"> My Channel
