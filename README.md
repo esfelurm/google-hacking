@@ -1,4 +1,4 @@
-# google-hacking
+# Google Hacking
 
 ### Capabilities :
 - Target finder according to the directions you give
