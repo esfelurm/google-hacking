@@ -43,7 +43,7 @@ def dork_Singel():
 `-.`.____.'       `--`--''     `--`-`--`--'   `--`           
     \n""")
     try:
-    	dork,page,time,save = input(f"{lrd}[{lgn}+{lrd}] {lgn}Dork File List{k}: {cn}"),int(input(f"{lrd}[{lgn}+{lrd}] {lgn}Number Page{k} : {cn}")),int(input(f"{lrd}[{lgn}+{lrd}] {lgn}Timeout {k}: {cn}")),input(f"{lrd}[{lgn}+{lrd}] {lgn}save location : {k}")
+    	dork,page,time,save = input(f"{lrd}[{lgn}+{lrd}] {lgn}Dork {k}: {cn}"),int(input(f"{lrd}[{lgn}+{lrd}] {lgn}Number Page{k} : {cn}")),int(input(f"{lrd}[{lgn}+{lrd}] {lgn}Timeout {k}: {cn}")),input(f"{lrd}[{lgn}+{lrd}] {lgn}save location : {k}")
     	nyx = 0
     	for i in search(dork, tld="com", lang="en", num=int(page), start=0, stop=None, pause=int(time)):
     		with open(save, 'a') as f:
