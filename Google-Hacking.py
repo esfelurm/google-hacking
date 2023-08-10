@@ -177,6 +177,6 @@ elif o == '5':
 	clear()
 	admin()
 elif o == '6':
-	os.system("python /rand/dork-random.py")
+	os.system("python rand/dork-random.py")
 else:
 	print (f"{lrd}Enter the appropriate option ")
