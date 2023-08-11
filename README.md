@@ -21,7 +21,7 @@ Working with the tool is simple and suitable for people who work in web hacking 
 ```
 git clone https://github.com/esfelurm/google-hacking
 cd google-hacking
-python google-hacking.py
+python Google-Hacking.py
 ```
 
 ## Channel 
