@@ -34,7 +34,7 @@ python Google-Hacking.py
 
 ## List Dorks 
 
-<img src="Screenshot_20230811-164417_Pydroid 3.jpg">
+<img src="scree/Screenshot_20230811-164417_Pydroid 3.jpg">
 
 ## Channel 
 
