@@ -49,19 +49,19 @@ ______   _______  |__| ___  __ _____    _/  |_    ____
     	exit(f'{lrd}[{rd}-{lrd}] {rd}Error')    	
 
 if o == '1':
-    with open("sqli.txt",'r') as file:
+    with open("rand/sqli.txt",'r') as file:
         lines = file.readlines()
     random_line = random.choice(lines)
     dork_random(random_line)
     
 elif o == '2':
-    with open("xss.txt",'r') as file:
+    with open("rand/xss.txt",'r') as file:
         lines = file.readlines()
     random_line = random.choice(lines)
     dork_random(random_line)
     
 elif o == '3':
-    with open("lfi.txt",'r') as file:
+    with open("rand/lfi.txt",'r') as file:
         lines = file.readlines()
     random_line = random.choice(lines)
     dork_random(random_line)
