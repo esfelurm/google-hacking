@@ -122,7 +122,7 @@ def sub():
 {lrd}+-++-++-++-++-++-++-++-++-++-+
 
 {lrd}[{lgn}+{lrd}] {gn}Enter URL Target {cn}[Ex : https://google.com] {gn}: {k}""")     
-    link_list = open('/file/sub.txt', 'r').read().split()
+    link_list = open('file/sub.txt', 'r').read().split()
     for List in link_list:
     	f = target+'/'+List
     	req = requests.get(f)
@@ -141,7 +141,7 @@ def admin():
 |/     \|(______/ |/     \|\_______/|/    )_)
 
 {lrd}[{lgn}+{lrd}] {gn}Enter URL Target {cn}[Ex : https://google.com] {gn}: {k}""")     
-    link_list = open('/file/admin.txt', 'r').read().split()    
+    link_list = open('file/admin.txt', 'r').read().split()    
     for List in link_list:
 		    s = target+'/'+List
 		    req = requests.get(s)
