@@ -28,7 +28,7 @@ Y88b  d88P Y88..88P Y88..88P Y88b 888 888 Y8b.
 
           {gn}Channel : {rd}@esfelurm
 
-{lrd}[{lgn}1{lrd}] {gn}Getting a list of sites with Dork {rd}[Singel]\n\n{lrd}[{lgn}2{lrd}] {gn}Getting a list of sites with Dork {rd}[file.txt]\n\n{lrd}[{lgn}3{lrd}] {gn}Find site directories\n\n{lrd}[{lgn}4{lrd}] {gn}Find subdomains \n\n{lrd}[{lgn}5{lrd}] {gn}Find the admin panel\n\n{lrd}[{lgn}6{lrd}] {gn}Random Dork\n\n{lrd}[{lgn}+{lrd}] {g}Enter Number : {cn}""")
+{lrd}[{lgn}1{lrd}] {gn}Getting a list of sites with Dork {rd}[Singel]\n\n{lrd}[{lgn}2{lrd}] {gn}Getting a list of sites with Dork {rd}[file.txt]\n\n{lrd}[{lgn}3{lrd}] {gn}Find site directories\n\n{lrd}[{lgn}4{lrd}] {gn}Find subdomains \n\n{lrd}[{lgn}5{lrd}] {gn}Find the admin panel\n\n{lrd}[{lgn}6{lrd}] {gn}Random Dork\n\n{lrd}[{lgn}7{lrd}] {gn}Exploit Finder/Searcher\n\n{lrd}[{lgn}+{lrd}] {g}Enter Number : {cn}""")
 def dork_Singel():
     clear()
     print (f"""{k}
@@ -178,5 +178,8 @@ elif o == '5':
 	admin()
 elif o == '6':
 	os.system("python rand/dork-random.py")
+elif o == '7':
+	os.system("python exploit/searcher.py")
+
 else:
 	print (f"{lrd}Enter the appropriate option ")
